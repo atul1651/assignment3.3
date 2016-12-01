@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<style>
+#field{
+background: #dee2f2  ;
+padding:5px 5px 5px 5px;
+    margin:0 auto;
+
+}
+#f1{
+width:440px;
+margin:auto;
+}
+#bform{
+width:500px;
+background: #4c60b0 ;
+padding:5px;
+margin:0 auto;
+top:0;
+bottom:0;
+right:0;
+left:0;
+
+}
+input {
+margin:auto;
+}
+span#add{
+vertical-align:middle;
+
+}
+button{
+ position:relative;
+
+    left:50%;
+}
+</style>
+<title>Contact form details foir the assignment</title>
+</head>
+<body>
+<div id="bform">
+
+<form id="f1">
+Step 1.Your Details
+<div id="field">
+  First name :<input type="text" name="Name" placeholder="First and last Name" >
+</div><br>
+<div id="field">
+  E-mail   :&emsp;&emsp;<input type="text" name="lastname" placeholder="email">
+</div><br>
+<div id="field">
+  Phone       :&emsp;&emsp;<input type="text" name="lastname" placeholder="eg.+91 9766989191">
+</div><br>
+
+Step 1.Delivery Details
+<div id="field">
+ <span id="add">Address  :&emsp;</span><textarea rows="2" cols="30">
+
+</textarea> 
+</div><br>
+<div id="field">
+  Post Code      :<input type="text" name="Post code" >
+</div><br>
+<div id="field">
+  Country :&emsp;<input type="text" name="Country">
+</div><br>
+
+Step 1.Card Details
+<div id="field">
+  Card Number    :<input type="text" name="Card Number" >
+
+</div><br>
+<div id="field">
+  Security Code      :<input type="text" name="Security code" >
+</div><br>
+<div id="field">
+  Name on the card :&emsp;<input type="text" name="Country" placeholder="exact name as on the card">
+
+
+</div><br>
+ <button type="submit" form="form1" value="Submit" id="field">Submit</button> 
+
+</div>
+<br>
+
+</form>  
+</body>
+</html>
